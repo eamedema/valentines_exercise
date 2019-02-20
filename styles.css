@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* element styling */
+h1 {
+  font-family: 'Coiny', cursive;
+  font-size: 30px;
+  margin: 25px 0 5px 0;
+  transition: 1s;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+  color: pink;
+  transition: 1s;
+}
+
+img {
+  max-width: 25vw;
+  border: 3px solid white;
+  opacity: .3;
+  transition: 1s;
+}
+
+img:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
+img:hover ~ p {
+  color: purple;
+  font-weight: bold;
+  font-size: 22px;
+  transition: .5s;
+  background-color: lavender;
+}
+
+img:hover ~ h1 {
+  color: purple;
+  font-size: 35px;
+  transition: .5s;
+}
+
+/* class styling */
+.container{
+  margin-top: 20vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightpink;
+  color: white;
+
+}
+
+.valentine {
+  max-width: 30vw;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
